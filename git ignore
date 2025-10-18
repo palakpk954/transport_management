@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific
+*.log
+*.pot
+*.pyc
+db.sqlite3
+local_settings.py
+
+# Environment variables and virtual environments
+.env
+venv/
+env/
+ENV/
+.venv/
+
+# PyCharm IDE files
+.idea/
+
+# VS Code files
+.vscode/
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Test and build related
+.tox/
+*.egg-info/
+.eggs/
+
+# Static files collected by Django (if managed)
+staticfiles/
+
+# media uploads (optional, if not committing media files)
+media/
+
+# Django migrations
+**/migrations/
+
+# Coverage reports
+.coverage
+*.cover
+.coverage.*
+
+# Others
+*.bak
+*.swp
