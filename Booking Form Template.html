@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Create Booking</h2>
+<form method="post" class="mt-3">
+    {% csrf_token %}
+    <div class="mb-3">
+        {{ form.vehicle.label_tag }} {{ form.vehicle }}
+    </div>
+    <div class="mb-3">
+        {{ form.start_location.label_tag }} {{ form.start_location }}
+    </div>
+    <div class="mb-3">
+        {{ form.end_location.label_tag }} {{ form.end_location }}
+    </div>
+    <button type="submit" class="btn btn-primary">Book Vehicle</button>
+</form>
+{% endblock %}
